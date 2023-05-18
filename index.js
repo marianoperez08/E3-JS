@@ -46,10 +46,6 @@ const pizzas = [
   },
 ];
 
-const saveToLocalStorage = () => {
-	localStorage.setItem("pizza", document;
-};
-
 const buscarPizza = () => {
   let number = document.querySelector(".number").value
   const container = document.querySelector(".container")
@@ -67,7 +63,6 @@ const buscarPizza = () => {
             <div class="price">$${prod.precio}</div>
         </div>
       `
-      saveToLocalStorage()
     }
   })
 }
